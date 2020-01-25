@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "arrays_strings",
+    "trees",
+]
