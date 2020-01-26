@@ -66,13 +66,14 @@ fn search_bst(root: Option<Rc<RefCell<TreeNode>>>, val: i32) -> Option<Rc<RefCel
     let mut current = root;
     while current != None {
         if let Some(node) = current {
-            let v = node.clone().borrow().val;
-            if v == val {
-                return Some(node);
-            } else if val < v {
-                current = node.borrow().left.clone();
+            let borrowed = node.borrow();
+            let v = &borrowed.val;
+            if *v == val {
+                return Some(node.clone());
+            } else if val < *v {
+                current = borrowed.left.clone();
             } else {
-                current = node.borrow().right.clone();
+                current = borrowed.right.clone();
             }
         }
     }
