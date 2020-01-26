@@ -2,4 +2,5 @@
 members = [
     "arrays_strings",
     "trees",
+    "structs",
 ]
