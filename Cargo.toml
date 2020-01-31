@@ -1,6 +1,6 @@
 [workspace]
 members = [
     "arrays_strings",
-    "trees",
+    "trees_graphs",
     "structs",
 ]
