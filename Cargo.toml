@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "arrays_strings",
+    "backtracking",
     "trees_graphs",
     "structs",
 ]
