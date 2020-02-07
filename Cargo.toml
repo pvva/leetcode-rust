@@ -1,5 +1,6 @@
 [workspace]
 members = [
+    "algorithms_hard",
     "arrays_strings",
     "backtracking",
     "trees_graphs",
