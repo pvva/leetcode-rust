@@ -1,8 +1,18 @@
 [workspace]
 members = [
-    "algorithms_hard",
-    "arrays_strings",
-    "backtracking",
-    "trees_graphs",
-    "structs",
+    "problems_0001_0100",
+    "problems_0101_0200",
+    "problems_0201_0300",
+    "problems_0301_0400",
+    "problems_0401_0500",
+    "problems_0501_0600",
+    "problems_0601_0700",
+    "problems_0701_0800",
+    "problems_0801_0900",
+    "problems_0901_1000",
+    "problems_1001_1100",
+    "problems_1101_1200",
+    "problems_1201_1300",
+    "problems_1301_1400",
+    "problems_1401_1500",
 ]
