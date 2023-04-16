@@ -86,7 +86,7 @@ impl Solution {
         }
 
         let mut diff = t.len();
-        let mut min_len = std::usize::MAX;
+        let mut min_len = usize::MAX;
         let mut start = 0;
         let mut head = 0;
         let mut idx = 0;
@@ -121,7 +121,7 @@ impl Solution {
             }
         }
 
-        if min_len == std::usize::MAX {
+        if min_len == usize::MAX {
             return "".to_string();
         }
 
